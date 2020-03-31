@@ -14,3 +14,22 @@ mqtt:
           password: password
           max-inflight: 1000
 ```
+## mqtt客户端名称
+默认mqtt客户端名称为ip:port，如果要从写，可重新创建bean，如下：
+```java
+import com.hope.common.mqtt.dto.MqttV3Client;
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+
+@Configuration
+public class MqttInitConfig {
+
+    @Bean
+    public MqttV3Client mqttV3Client() {
+        //TODO 在此处生成客户端名称
+        String clientId = "";
+        return new MqttV3Client(clientId);
+    }
+}
+```
+
