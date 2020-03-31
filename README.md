@@ -15,7 +15,7 @@ mqtt:
           max-inflight: 1000
 ```
 ## mqtt客户端名称
-默认mqtt客户端名称为ip:port，如果要从写，可重新创建bean，如下：
+默认mqtt客户端名称为ip:port，如果要个性化命名，可重新创建bean，如下：
 ```java
 import com.hope.common.mqtt.dto.MqttV3Client;
 import org.springframework.context.annotation.Bean;
