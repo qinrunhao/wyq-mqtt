@@ -1,5 +1,5 @@
 # mqtt
-mqtt封装
+mqtt封装，已解决重连问题
 ## 快速上手
 * 发布消息，直接注入接口PublisherService，调用相关成员方法。
 * 订阅消息，直接注入接口SubscribeService，调用相关成员方法。
