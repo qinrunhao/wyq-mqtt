@@ -1,9 +1,9 @@
 # mqtt
 mqtt封装
 ## 快速上手
-* 发布消息，直接注入接口PublisherService，调用相关接口。
-* 订阅消息，直接注入接口SubscribeService，调用相关接口。
-* 取消订阅，直接注入接口UnsubscribeService，调用相关接口。
+* 发布消息，直接注入接口PublisherService，调用相关成员方法。
+* 订阅消息，直接注入接口SubscribeService，调用相关成员方法。
+* 取消订阅，直接注入接口UnsubscribeService，调用相关成员方法。
 ## application.yml配置
 ```
 mqtt:
